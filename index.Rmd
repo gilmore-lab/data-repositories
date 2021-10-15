@@ -1,0 +1,58 @@
+---
+title: "Repository Catalogue"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Academic
+
+## Neuroscience
+
+### [Allen Brain Map](https://portal.brain-map.org/)
+
+### [Brain Cell Data Center (BCDC)](https://portal.brain-map.org/)
+
+### [Brain Image Library (BIL)](http://www.brainimagelibrary.org/)
+
+### [Distributed Archives for Neurophysiology Data Integration (DANDI)](https://dandiarchive.org)
+
+### [Neuroscience Multi-Omic (NeMO) Archive](https://nemoarchive.org/)
+
+### [OpenNeuro](https://openneuro.org)
+
+## Not field specific
+
+## [Dataverse](https://dataverse.org)
+
+### [Zenodo](https://zenodo.org)
+
+## Psychology
+
+### [Databrary](https://databrary.org)
+
+### [Open Science Framework (OSF)](https://osf.io)
+
+### [TalkBank](https://talkbank.org)
+
+### [WordBank](http://wordbank.stanford.edu)
+
+## Social Sciences
+
+### [Interuniversity Consortium for Political and Social Research (ICPSR)](https://www.icpsr.umich.edu/)
+
+### [Odum Institute](https://odum.unc.edu)
+
+### [Qualitative Data Repository (QDR)](https://qdr.syr.edu)
+
+# Commercial
+
+## FigShare
+
+## Mendeley Data
+
+## ResearchGate
