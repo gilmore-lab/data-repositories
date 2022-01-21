@@ -9,9 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Academic
+# Academic/not-for-profit
 
 ## Neuroscience
+
+### [Adolescent Brain and Cognitive Development (ABCD) Study](https://abcdstudy.org/scientists/data-sharing/)
 
 ### [Allen Brain Map](https://portal.brain-map.org/)
 
@@ -21,37 +23,226 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### [Distributed Archives for Neurophysiology Data Integration (DANDI)](https://dandiarchive.org)
 
+### [Enhancing Neuroimaging Genetics Through Meta Analysis (ENIGMA) Consortium](http://enigma.ini.usc.edu)
+
+### [Human Connectome Project](http://www.humanconnectomeproject.org)
+
 ### [Neuroscience Multi-Omic (NeMO) Archive](https://nemoarchive.org/)
+
+### [Neurosynth](https://neurosynth.org)
 
 ### [OpenNeuro](https://openneuro.org)
 
 ## Not field specific
 
-## [Dataverse](https://dataverse.org)
+### [Data Dryad](https://datadryad.org)
+
+#### Home base/governance
+
+- Affiliated with University of California Digital Library (CDL)
+- Not-for-profit organization 501(c)3 with [governing board](https://datadryad.org/stash/our_governance)
+- [Governance info](https://github.com/datadryad/governance) on GitHub
+- [Annual reports](https://github.com/datadryad/governance/blob/main/annual-reports/index.md) available on GitHub
+
+#### Memberships/partnerships
+
+- Institutional [memberships](https://datadryad.org/stash/our_membership)
+- Publisher/society [memberships](https://datadryad.org/stash/our_membership)
+- Three-tiered insitutional membership [fee structure](https://datadryad.org/stash/join_us)
+- Partnership with Zenodo via Sloan grant
+
+#### Data types/organization
+
+- Many data types
+- Focus on datasets associated with specific publications
+
+#### Access/visualization
+
+- Have anonymous for peer review option
+- Public access to datasets
+
+#### Curation
+
+- Investigators do initial curation
+- Staff do additional curation checks pre-publication.
+
+#### Business model/support
+
+- Institutional memberships, publisher partnerships, data publication charges
+  - Data publication charges (DPC) are $120/submission (for researchers from non-member institutions) + $50/10GB over 50GB.
+  - [2020 report](https://github.com/datadryad/governance/blob/main/annual-reports/DryadAnnualReport2020.pdf) suggests non-grant income of ~$570K, most of which comes from journals.
+- Grants from NSF, Sloan
+  - Large, $870K over 3 years, NSF (Div of Bio Infrastructure) [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1933812&HistoricalAwards=false) via UC California Digital Library.
+  - Grant ($635,915 over 2 years) from Alfred P. Sloan Foundation for partnership with [Zenodo](https://zenodo.org) to host code.
+  
+#### Technical
+
+- [Ruby-on-Rails](https://github.com/CDL-Dryad/dryad-app)
+
+
+### [Dataverse](https://dataverse.org)
+
+- Investigators curate.
+- Offer software to support institutionally-based repositories.
+- Publisher/society relationships.
+
+
+### [Open Science Framework (OSF)](https://osf.io)
+
+- Investigators curate/upload
+
 
 ### [Zenodo](https://zenodo.org)
+
+- Investigators curate
+- Partnership with Dryad funded by Sloan
+- Affiliated with CERN (high energy physics research institution in Switzerland)
 
 ## Psychology
 
 ### [Databrary](https://databrary.org)
 
-### [Open Science Framework (OSF)](https://osf.io)
+#### Home base/governance
+
+- Based at New York University and Penn State University.
+- Karen Adolph (NYU) and Rick Gilmore (PSU) direct
+- Currently inactive advisory board
+
+#### Memberships/partnerships
+
+- Formal [institutional agreement](https://databrary.org/about/agreement.html)
+
+#### Data types/organization
+
+- Specialized for [video & audio and associated data](https://gilmore-lab.github.io/databrary-analytics/volumes-with-videos-annotations/assets-stats.html#Volumes_with_shared_assets); many [filetypes supported](https://nyu.databrary.org/asset/formats).
+- Structured storage and visualization of [human participant demographic data](https://gilmore-lab.github.io/databrary-analytics/participant-demographics/participant-demog-report.html#Summary_results) via spreadsheet.
+
+#### Access/visualization
+
+- Mostly restricted access via specific [participant permissions/sharing release levels](https://databrary.org/support/irb/release-levels.html)
+- API
+  - [R package](https://PLAY-behaviorome/databraryapi)
+- Stream video/audio files
+- Download (zipped) archives
+
+#### Curation
+
+- Investigators curate
+- Very limited staff curation for large datasets
+
+
 
 ### [TalkBank](https://talkbank.org)
 
+#### Home base/governance
+
+- Based at Carnegie Mellon University
+- Brian MacWhinney directs
+- [Advisory/Governing Board](https://www.talkbank.org/share/governing.html) consisting of representatives from various databases
+
+#### Memberships/partnerships
+
+- No institutional-level relationships
+
+#### Data types/organization
+
+- Focus is on audio (some video) recordings plus transcripts in CHAT format
+- Datasets organized as corpora, not specifically associated with journal publications
+
+#### Access/visualization
+
+- Many publicly-available datasets, some restricted access
+- Newly developed tool to visualize transcripts + video/audio in browser
+
+#### Curation
+
+- Brian MacWhinney does or oversees all curation
+
+#### Business model/support
+
+- Grant support from NIH and NSF
+  
+  
 ### [WordBank](http://wordbank.stanford.edu)
+
+#### Home base/governance
+
+- Based at Stanford University
+
+#### Curation
+
+- Organizers curate
+
+#### Data types/organization
+
+- Stores, shares, and visualizes MacArthur-Bates Communicative Development Inventory (MB-CDI) data
+- No notion of "dataset" or corpus
+- Respondent age, sex, language and some other demographic variables for some datasets
+
 
 ## Social Sciences
 
-### [Interuniversity Consortium for Political and Social Research (ICPSR)](https://www.icpsr.umich.edu/)
+### [Association of Religion Data Archives (ARDA)](https://www.thearda.com)
+
+#### Home base/governance
+
+- Based at Penn State
+
+#### Business model/support
+
+- Grant support from Lilly Endowment, Templeton Foundation
+- Penn State, Chapman University, Indiana University/Purdue University Indianapolis
+
+### [Inter-university Consortium for Political and Social Research (ICPSR)](https://www.icpsr.umich.edu/)
+
+#### Home base/governance
+
+- Based at University of Michigan
+- Maggie Levenstein directs
+
+#### Memberships/Partnerships
+
+- Institutional memberships with [annual dues based on Carnegie classification](https://www.icpsr.umich.edu/web/pages/membership/join.html?utm_source=web&utm_medium=web&utm_campaign=web)
+
+#### Data types/organization
+
+- By dataset, many types
+
+#### Access/visualization
+
+#### Curation
+
+- Staff curate (for a fee)
+- Have separate investigator-curated repository
+
+#### Business model/support
+
+- Institutional memberships with [annual dues based on Carnegie classification](https://www.icpsr.umich.edu/web/pages/membership/join.html?utm_source=web&utm_medium=web&utm_campaign=web)
+- Project-/dataset- specific grants
+
+#### Technical
 
 ### [Odum Institute](https://odum.unc.edu)
 
+- Uses Dataverse software
+- Provides post-acceptance verification services for publications with datasets for several journals.
+
 ### [Qualitative Data Repository (QDR)](https://qdr.syr.edu)
+
+- Based at Syracuse University and Georgetown University
+- Based on customization of Dataverse software platform
+
+# Government-led
+
+### National Institutes of Mental Health Data Archive (NDA)
+
+- Outgrowth of National Database for Autism Research (NDAR)
 
 # Commercial
 
 ## FigShare
+
+- Owned by Springer Nature
 
 ## Mendeley Data
 
