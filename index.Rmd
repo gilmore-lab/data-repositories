@@ -98,6 +98,13 @@ knitr::opts_chunk$set(echo = TRUE)
 - Partnership with Dryad funded by Sloan
 - Affiliated with CERN (high energy physics research institution in Switzerland)
 
+
+### [Lyrasis.org](https://lyrasis.org)
+
+#### Technical
+
+- Provider of DuraSpace software used by some institutional repositories
+
 ## Psychology
 
 ### [Databrary](https://databrary.org)
